@@ -1,2 +1,1 @@
-def classo():
-    pass
+# recreation...
