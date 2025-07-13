@@ -6,5 +6,13 @@
   <br>
 </h1>
 
-<h4 align="center">Tool to migrate from Windows to a Linux distribution easily</a>.</43>
+<p align="center">
+  <a href="https://saythanks.io/to/FrecceNere">
+      <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg">
+  </a>
+  <a href="https://ko-fi.com/freccenere">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  </a>
+</p>
 
+<h4 align="center">Tool to migrate from Windows to a Linux distribution easily</a>.</43>
