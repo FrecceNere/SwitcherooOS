@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <img src="windows-to-linux.png" alt="Logo" width="400"></a>
+  <img src="./images/windows-to-linux.png" alt="Logo" width="400"></a>
   <br>
   Windows to Linux migrator
   <br>
@@ -20,7 +20,7 @@
     <img src="https://img.shields.io/github/license/FrecceNere/windows-to-linux-migrator">
   </a>
 </p>
-<!--  
+<!--
 <p align="center">
   <a href="#features">Features</a> •
   <a></a>
