@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>windows-to-linux.png</file>
+    <file>linux-logo.png</file>
+  </qresource>
+</RCC>
