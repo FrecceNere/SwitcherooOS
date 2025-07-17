@@ -13,9 +13,9 @@
   <a href="https://saythanks.io/to/FrecceNere">
       <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg">
   </a>
-  <a href="https://ko-fi.com/freccenere">
+<!--  <a href="https://ko-fi.com/freccenere">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
+  </a>-->
   <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/FrecceNere/SwitcherooOS">
   </a>
