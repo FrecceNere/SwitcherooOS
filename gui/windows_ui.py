@@ -110,6 +110,41 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.addWidget(self.pushButton_2)
 
         self.stackedWidget.addWidget(self.page_2)
+        self.page_3 = QWidget()
+        self.page_3.setObjectName(u"page_3")
+        self.verticalLayout_4 = QVBoxLayout(self.page_3)
+        self.verticalLayout_4.setObjectName(u"verticalLayout_4")
+        self.label_3 = QLabel(self.page_3)
+        self.label_3.setObjectName(u"label_3")
+
+        self.verticalLayout_4.addWidget(self.label_3)
+
+        self.checkBox_2 = QCheckBox(self.page_3)
+        self.checkBox_2.setObjectName(u"checkBox_2")
+
+        self.verticalLayout_4.addWidget(self.checkBox_2)
+
+        self.pushButton_3 = QPushButton(self.page_3)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.pushButton_3.setEnabled(False)
+        self.pushButton_3.setIcon(icon1)
+
+        self.verticalLayout_4.addWidget(self.pushButton_3)
+
+        self.stackedWidget.addWidget(self.page_3)
+        self.page_4 = QWidget()
+        self.page_4.setObjectName(u"page_4")
+        self.verticalLayout_5 = QVBoxLayout(self.page_4)
+        self.verticalLayout_5.setObjectName(u"verticalLayout_5")
+        self.label_4 = QLabel(self.page_4)
+        self.label_4.setObjectName(u"label_4")
+
+        self.verticalLayout_5.addWidget(self.label_4)
+
+        self.stackedWidget.addWidget(self.page_4)
+        self.page_5 = QWidget()
+        self.page_5.setObjectName(u"page_5")
+        self.stackedWidget.addWidget(self.page_5)
 
         self.verticalLayout.addWidget(self.stackedWidget)
 
@@ -120,8 +155,9 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         self.checkBox.toggled.connect(self.pushButton_2.setEnabled)
+        self.checkBox_2.toggled.connect(self.pushButton_3.setEnabled)
 
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(3)
         self.pushButton_2.setDefault(False)
 
 
@@ -784,4 +820,9 @@ class Ui_MainWindow(object):
 "above cannot be given local legal effect ", None))
         self.checkBox.setText(QCoreApplication.translate("MainWindow", u"I accept", None))
         self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"Next", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:20pt; font-weight:700;\">DISCLAIMER: NO WARRANTY</span><span style=\" font-size:12pt;\"><br/><br/></span><span style=\" font-size:14pt;\"><br/>SwitcherooOS - helps to switch to a linux distro easily<br/>Copyright (C) 2025 Raffaele</span></p><p><span style=\" font-size:14pt;\">This program is distributed in the hope that it will be useful,<br/>but WITHOUT ANY WARRANTY; without even the implied warranty of<br/>MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the<br/>GNU General Public License for more details.</span></p><p><span style=\" font-size:14pt;\">You should have received a copy of the GNU General Public License<br/>along with this program. If not, see &lt;</span><a href=\"https://www.gnu.org/licenses/\"><span style=\" font-size:14pt; text-decoration: underline; color:#1d99f3;\">https://www.gnu.org/licenses/</span></a><span style=\" font-size:14pt;\">&gt;.</span></p></body></html>", None))
+        self.checkBox_2.setText(QCoreApplication.translate("MainWindow", u"I accept", None))
+        self.pushButton_3.setText(QCoreApplication.translate("MainWindow", u"Next", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;\">What is Linux?</span></p><p><span style=\" font-size:12pt; font-weight:700;\">Linux</span><span style=\" font-size:12pt;\"> is the core engine (called the </span><span style=\" font-size:12pt; font-style:italic;\">kernel</span><span style=\" font-size:12pt;\">) that makes your computer hardware work. <br/>But an engine alone isn\u2019t a full car, and Linux alone isn\u2019t a full operating system. <br/>The complete system you actually use (with windows, menus, apps, and file manager like file explorer)<br/>is built by </span><span style=\" font-size:12pt; font-weight:700;\">GNU</span><span style=\" font-size:12pt;\">. <br/>Together, they form </span><span style=\" font-size:12pt; font-weight:700;\">GNU/Linux</span><span style=\" font-size:12pt;\">: a free, open alternative to Windows or macOS.<br/>When people say &quot;Linux,&quot; they often mean popular versions like Ubuntu or Mint,<br/>which are </span><span style=\" font-size:12pt; fo"
+                        "nt-style:italic;\">distributions</span><span style=\" font-size:12pt;\"> of </span><span style=\" font-size:12pt; font-weight:700;\">GNU/Linux.</span><span style=\" font-size:12pt;\"><br/>You get </span><span style=\" font-size:12pt; font-weight:700;\">freedom</span><span style=\" font-size:12pt;\">: no cost, no forced updates, and total control over your system.</span></p><p><span style=\" font-size:16pt; font-weight:700;\">What is Open Source?</span></p><p><span style=\" font-size:12pt;\">TODO</span></p></body></html>", None))
     # retranslateUi

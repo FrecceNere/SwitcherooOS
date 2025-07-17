@@ -37,7 +37,7 @@
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>3</number>
       </property>
       <widget class="QWidget" name="page">
        <widget class="QPushButton" name="pushButton">
@@ -781,6 +781,49 @@ above cannot be given local legal effect </string>
         </item>
        </layout>
       </widget>
+      <widget class="QWidget" name="page_3">
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:700;&quot;&gt;DISCLAIMER: NO WARRANTY&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;&lt;br/&gt;SwitcherooOS - helps to switch to a linux distro easily&lt;br/&gt;Copyright (C) 2025 Raffaele&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;This program is distributed in the hope that it will be useful,&lt;br/&gt;but WITHOUT ANY WARRANTY; without even the implied warranty of&lt;br/&gt;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&lt;br/&gt;GNU General Public License for more details.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;You should have received a copy of the GNU General Public License&lt;br/&gt;along with this program. If not, see &amp;lt;&lt;/span&gt;&lt;a href=&quot;https://www.gnu.org/licenses/&quot;&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline; color:#1d99f3;&quot;&gt;https://www.gnu.org/licenses/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;&amp;gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_2">
+          <property name="text">
+           <string>I accept</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Next</string>
+          </property>
+          <property name="icon">
+           <iconset theme="QIcon::ThemeIcon::GoNext"/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;What is Linux?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Linux&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; is the core engine (called the &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;kernel&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;) that makes your computer hardware work. &lt;br/&gt;But an engine alone isn’t a full car, and Linux alone isn’t a full operating system. &lt;br/&gt;The complete system you actually use (with windows, menus, apps, and file manager like file explorer)&lt;br/&gt;is built by &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;GNU&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;. &lt;br/&gt;Together, they form &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;GNU/Linux&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;: a free, open alternative to Windows or macOS.&lt;br/&gt;When people say &amp;quot;Linux,&amp;quot; they often mean popular versions like Ubuntu or Mint,&lt;br/&gt;which are &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;distributions&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; of &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;GNU/Linux.&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;&lt;br/&gt;You get &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;freedom&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;: no cost, no forced updates, and total control over your system.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;What is Open Source?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TODO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_5"/>
      </widget>
     </item>
    </layout>
@@ -795,6 +838,22 @@ above cannot be given local legal effect </string>
    <sender>checkBox</sender>
    <signal>toggled(bool)</signal>
    <receiver>pushButton_2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>378</x>
+     <y>513</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>378</x>
+     <y>547</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_3</receiver>
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">

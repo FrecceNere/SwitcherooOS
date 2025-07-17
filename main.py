@@ -55,11 +55,8 @@ if __name__ == "__main__":
             pass
         else:
             # TODO: Show installed linux gui
-            # DEBUG:
-            win = MainApp()
-            # DEBUG:
-            win.show()
-            # DEBUG:
-            app.exec()
+            # DEBUG: win = MainApp()
+            # DEBUG: win.show()
+            # DEBUG: app.exec()
             # DEBUG: print("Installed distro")
             pass

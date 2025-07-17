@@ -26,8 +26,22 @@ class MainApp(QMainWindow, Ui_MainWindow):
         self.stackedWidget.setCurrentIndex(0)
 
         self.pushButton.clicked.connect(self.on_pushButton_clicked)
+        self.pushButton_2.clicked.connect(self.on_pushButton_2_clicked)
+        self.pushButton_3.clicked.connect(self.on_pushButton_3_clicked)
 
     def on_pushButton_clicked(self):
+        sw = self.stackedWidget
+        next_idx = (sw.currentIndex() + 1) % sw.count()
+        sw.setCurrentIndex(next_idx)
+        #self.stackedWidget.setCurrentIndex(1)
+
+    def on_pushButton_2_clicked(self):
+        sw = self.stackedWidget
+        next_idx = (sw.currentIndex() + 1) % sw.count()
+        sw.setCurrentIndex(next_idx)
+        #self.stackedWidget.setCurrentIndex(1)
+
+    def on_pushButton_3_clicked(self):
         sw = self.stackedWidget
         next_idx = (sw.currentIndex() + 1) % sw.count()
         sw.setCurrentIndex(next_idx)
