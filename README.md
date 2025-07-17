@@ -3,9 +3,9 @@
 
 <h1 align="center">
   <br>
-  <img src="./images/windows-to-linux.png" alt="Logo" width="400"></a>
+  <img src="./images/SwitcherooOS.png" alt="Logo" width="400"></a>
   <br>
-  Windows to Linux Migrator
+  SwitcherooOS
   <br>
 </h1>
 
@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
   <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/FrecceNere/windows-to-linux-migrator">
+    <img src="https://img.shields.io/github/license/FrecceNere/SwitcherooOS">
   </a>
 </p>
 <!--
@@ -34,5 +34,5 @@
 ## Disclaimer
 
 > [!NOTE]
-> "Windows to Linux Migrator" is not affiliated with or endorsed by Microsoft or the Linux Foundation. "Windows" and "Linux" are registered trademarks of their respective companies. This is an independent tool for migrating from Windows to Linux.
+> "SwitcherooOS" is not affiliated with or endorsed by Microsoft or the Linux Foundation. "Windows" and "Linux" are registered trademarks of their respective companies. This is an independent tool for migrating from Windows to Linux.
 
