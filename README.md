@@ -5,7 +5,7 @@
   <br>
   <img src="./images/windows-to-linux.png" alt="Logo" width="400"></a>
   <br>
-  Windows to Linux migrator
+  Windows to Linux Migrator
   <br>
 </h1>
 
@@ -30,3 +30,9 @@
 -->
 
 <h4 align="center">Tool to migrate from Windows to a Linux distribution easily</a>.</43>
+
+## Disclaimer
+
+> [!NOTE]
+> "Windows to Linux Migrator" is not affiliated with or endorsed by Microsoft or the Linux Foundation. "Windows" and "Linux" are registered trademarks of their respective companies. This is an independent tool for migrating from Windows to Linux.
+
