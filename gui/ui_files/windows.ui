@@ -26,8 +26,8 @@
    <string>Windows to Linux Migrator</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../images/image.qrc">
-    <normaloff>:/newPrefix/linux-logo.png</normaloff>:/newPrefix/linux-logo.png</iconset>
+   <iconset resource="../../images/image.qrc">
+    <normaloff>:/newPrefix/SwitcherooOS.png</normaloff>:/newPrefix/SwitcherooOS.png</iconset>
   </property>
   <property name="locale">
    <locale language="English" country="UnitedStates"/>
@@ -72,7 +72,7 @@
          </rect>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This tool will help you install a linux distribution and let you learn &lt;br/&gt;a few things about linux in an easy way!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;I remind you that this project is Free and Open Source,&lt;br/&gt;please be free to contribute by helping the project, or &lt;/span&gt;&lt;a href=&quot;https://ko-fi.com/freccenere&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#1d99f3;&quot;&gt;donating to &lt;br/&gt;the manteiner&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This tool will help you install a linux distribution and let you learn &lt;br/&gt;a few things about linux in an easy way!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;I remind you that this project is Free and Open Source,&lt;br/&gt;please be free to contribute by helping the project, or donating to &lt;br/&gt;the manteiner&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QLabel" name="Label">
@@ -85,20 +85,20 @@
          </rect>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:700;&quot;&gt;Welcome to Windows to Linux Migrator&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:700;&quot;&gt;Welcome to SwitcherooOS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
        <widget class="QLabel" name="Logo">
         <property name="geometry">
          <rect>
-          <x>90</x>
-          <y>-40</y>
-          <width>541</width>
-          <height>371</height>
+          <x>190</x>
+          <y>30</y>
+          <width>291</width>
+          <height>281</height>
          </rect>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/windows-to-linux.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/SwitcherooOS.png&quot; width=&quot;350&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </widget>
@@ -114,7 +114,7 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>713</width>
+             <width>709</width>
              <height>11082</height>
             </rect>
            </property>
@@ -788,7 +788,7 @@ above cannot be given local legal effect </string>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../images/image.qrc"/>
+  <include location="../../images/image.qrc"/>
  </resources>
  <connections>
   <connection>

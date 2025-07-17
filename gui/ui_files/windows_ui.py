@@ -1,21 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# SwitcherooOS - helps to switch to a linux distro easily
-# Copyright (C) 2025  Raffaele
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 ################################################################################
 ## Form generated from reading UI file 'windows.ui'
 ##
@@ -34,7 +18,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QCheckBox, QLabel, QMainWindow,
     QPushButton, QScrollArea, QSizePolicy, QStackedWidget,
     QStatusBar, QVBoxLayout, QWidget)
-import gui.image_rc
+import image_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):

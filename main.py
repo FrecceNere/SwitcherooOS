@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Windows to Linux migrator - helps to switch to a linux distro easily
+# SwitcherooOS - helps to switch to a linux distro easily
 # Copyright (C) 2025  Raffaele
 #
 # This program is free software: you can redistribute it and/or modify
@@ -55,8 +55,11 @@ if __name__ == "__main__":
             pass
         else:
             # TODO: Show installed linux gui
-            # DEBUG: win = MainApp()
-            # DEBUG: win.show()
-            # DEBUG: app.exec()
+            # DEBUG:
+            win = MainApp()
+            # DEBUG:
+            win.show()
+            # DEBUG:
+            app.exec()
             # DEBUG: print("Installed distro")
             pass
