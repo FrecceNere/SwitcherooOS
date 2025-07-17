@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <img src="./images/SwitcherooOS.png" alt="Logo" width="400"></a>
+  <img src="./images/SwitcherooOS.png" alt="Logo" width="350"></a>
   <br>
   SwitcherooOS
   <br>
